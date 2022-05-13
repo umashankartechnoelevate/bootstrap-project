@@ -1,0 +1,53 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+nav
+{
+    position: fixed !important;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+}
+nav ul li a:hover,nav a:hover
+{
+    background-color: lightgray;    
+}
+
+.figcaption
+{
+    position:absolute;
+    top: 450px;
+    left: 40%;
+}
+.image
+{
+    position: relative;
+}
+.span
+{
+    position: absolute;
+    top:0px;
+    left:12px;
+}
+.card-img-top
+{
+   filter: grayscale(70%);
+}
+.hovering:hover
+{
+    background-color:rgb(187, 183, 183)!important;
+}
+.send:hover
+{
+    background-color: rgba(81, 79, 79, 0.462)!important;
+    color:black !important;
+}
+.footerlink
+{
+    color:green !important; ;
+}
+.footerlink:hover
+{
+    color: blue!important;
+}
